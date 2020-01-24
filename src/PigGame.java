@@ -38,6 +38,7 @@ public class PigGame {
         } while (rollAgain.equalsIgnoreCase("yes"));
 
         System.out.println("Thank you for playing!");
+        in.close();
     }
 
 }
